@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
   },
   userNumber: {
     fontSize: 18,
+    color: '#041E3F',
   },
   userImage: {
     backgroundColor: '#f7f7f7',

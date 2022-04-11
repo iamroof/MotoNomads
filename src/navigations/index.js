@@ -39,7 +39,7 @@ const AppNavigator = () => {
 
   return (
     <NavigationContainer>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
       <Loader show={loader.show}></Loader>
       <BottomTabNavigator></BottomTabNavigator>
     </NavigationContainer>

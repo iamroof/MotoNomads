@@ -85,7 +85,7 @@ const MyAccountScreen = ({navigation}) => {
             </ListItem.Title>
           </ListItem.Content>
         </ListItem>
-        {authStatus && authStatus > 1 && (
+        {authStatus && authStatus > 1 ? (
           <ListItem
             Component={TouchableHighlight}
             containerStyle={{}}
@@ -100,7 +100,7 @@ const MyAccountScreen = ({navigation}) => {
               </ListItem.Title>
             </ListItem.Content>
           </ListItem>
-        )}
+        ) : null}
       </View>
     </SafeAreaProvider>
   );
